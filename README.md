@@ -14,6 +14,8 @@ The Expense Report App consists of several screens and workflows that work toget
 - Mail directly: Users can mail directly to the Approver with the inquiry when the status of an expense is "Submitted" or "Declined".
 - Reset filters: Users can reset all filtering fields with a single button click.
 
+![scr1_View_Expense](images/ExpenseReportApp_scr1_View_Expenses.png)
+
 #### Screen 2: Add Expenses
 
 - Create new expenses: Users can create new expense entries with ease.
@@ -22,13 +24,19 @@ The Expense Report App consists of several screens and workflows that work toget
 - Submit to SharePoint List: Expenses are submitted to a SharePoint list using the Patch function. Notifications inform the user if the expense has been successfully submitted or when the to fields are missing.
 - Reset fields: Users can reset all input fields with a single button click.
 
+![scr2_Add_Expense](images/ExpenseReportApp_scr2_Add_Expenses.png)
+
 #### Screen 3: Expense Analysis
 
 - Power BI report integration: Users can access a Power BI report that allows for multiple selections and data visualization. This provides a comprehensive overview of expenses.
 
+![scr3_Expenses_Analysis](images/ExpenseReportApp_scr3_Expenses_Analysis.png)
+
 #### Screen 4: Created By
 
 - Contact and app author information: This screen provides information about the author of the Expense Report App.
+
+![scr4_Created_By](images/ExpenseReportApp_scr4_Created_By.png)
 
 **Additionaly**
 
