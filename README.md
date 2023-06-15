@@ -64,7 +64,7 @@ The Expense Report App consists of several screens and workflows that work toget
 To get started, ensure that you have access to the Power Platform and the necessary permissions to create and manage Power Apps, Power Automate workflows, and Power BI reports. You will also need a SharePoint list to store the data.
 
 - Dowload all elements of the Expense Report App repository.
-- Import [dbExpenses.iqy](https://github.com/KlaudiaMagdalena/ExpenseReportApp/blob/main/dbExpenses.iqy) file to SharePoint list.
+- Import [dbExpenses.xlsx](https://github.com/KlaudiaMagdalena/ExpenseReportApp/blob/main/dbExpenses.xlsx) file to SharePoint list.
 - Import [Expense_reports_analysis.pbix](https://github.com/KlaudiaMagdalena/ExpenseReportApp/blob/main/Expense_reports_analysis.pbix) file to Power BI.
 - Import the [PowerAutomate_Expense_Approval.zip](https://github.com/KlaudiaMagdalena/ExpenseReportApp/blob/main/PowerAutomate_Expense_Approval.zip) and [PowerAutomate_Refresh_a_Power_BI_dataset.zip](https://github.com/KlaudiaMagdalena/ExpenseReportApp/blob/main/PowerAutomate_Refresh_a_Power_BI_dataset.zip) workflows to Power Automate. Then connect the “Expense Approval” to “dbExpenses” Sharepoint list. Finally connect the “Refresh a Power BI dataset” workflow to “dbExpenses” Sharepoint list and “Expense_reports_analysis" report in Power BI.
 - Then import solution [ExpenseReportApp_1_0_0_2.zip](https://github.com/KlaudiaMagdalena/ExpenseReportApp/blob/main/ExpenseReportApp_1_0_0_2.zip) to you Power Apps environment. Select required Connections during import (ver 1.0.0.2 only uses Outlook 365 and SharePoint) as well required environment variables (ver 1.0.0.2 only uses SharePoint Site).
